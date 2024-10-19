@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/DMA_test.elf.dir/Core/Src/callback.c.obj"
+  "CMakeFiles/DMA_test.elf.dir/Core/Src/callback.c.obj.d"
   "CMakeFiles/DMA_test.elf.dir/Core/Src/dma.c.obj"
   "CMakeFiles/DMA_test.elf.dir/Core/Src/dma.c.obj.d"
   "CMakeFiles/DMA_test.elf.dir/Core/Src/gpio.c.obj"

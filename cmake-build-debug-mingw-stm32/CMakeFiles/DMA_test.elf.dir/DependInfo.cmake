@@ -30,6 +30,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/CLionProjects/DMA_test/Core/Src/callback.c" "CMakeFiles/DMA_test.elf.dir/Core/Src/callback.c.obj" "gcc" "CMakeFiles/DMA_test.elf.dir/Core/Src/callback.c.obj.d"
   "C:/CLionProjects/DMA_test/Core/Src/dma.c" "CMakeFiles/DMA_test.elf.dir/Core/Src/dma.c.obj" "gcc" "CMakeFiles/DMA_test.elf.dir/Core/Src/dma.c.obj.d"
   "C:/CLionProjects/DMA_test/Core/Src/gpio.c" "CMakeFiles/DMA_test.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/DMA_test.elf.dir/Core/Src/gpio.c.obj.d"
   "C:/CLionProjects/DMA_test/Core/Src/main.c" "CMakeFiles/DMA_test.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/DMA_test.elf.dir/Core/Src/main.c.obj.d"

@@ -68,10 +68,24 @@ include CMakeFiles/DMA_test.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DMA_test.elf.dir/flags.make
 
+CMakeFiles/DMA_test.elf.dir/Core/Src/callback.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
+CMakeFiles/DMA_test.elf.dir/Core/Src/callback.c.obj: C:/CLionProjects/DMA_test/Core/Src/callback.c
+CMakeFiles/DMA_test.elf.dir/Core/Src/callback.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/DMA_test.elf.dir/Core/Src/callback.c.obj"
+	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Core/Src/callback.c.obj -MF CMakeFiles\DMA_test.elf.dir\Core\Src\callback.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Core\Src\callback.c.obj -c C:\CLionProjects\DMA_test\Core\Src\callback.c
+
+CMakeFiles/DMA_test.elf.dir/Core/Src/callback.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/DMA_test.elf.dir/Core/Src/callback.c.i"
+	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CLionProjects\DMA_test\Core\Src\callback.c > CMakeFiles\DMA_test.elf.dir\Core\Src\callback.c.i
+
+CMakeFiles/DMA_test.elf.dir/Core/Src/callback.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/DMA_test.elf.dir/Core/Src/callback.c.s"
+	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CLionProjects\DMA_test\Core\Src\callback.c -o CMakeFiles\DMA_test.elf.dir\Core\Src\callback.c.s
+
 CMakeFiles/DMA_test.elf.dir/Core/Src/dma.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Core/Src/dma.c.obj: C:/CLionProjects/DMA_test/Core/Src/dma.c
 CMakeFiles/DMA_test.elf.dir/Core/Src/dma.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/DMA_test.elf.dir/Core/Src/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/DMA_test.elf.dir/Core/Src/dma.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Core/Src/dma.c.obj -MF CMakeFiles\DMA_test.elf.dir\Core\Src\dma.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Core\Src\dma.c.obj -c C:\CLionProjects\DMA_test\Core\Src\dma.c
 
 CMakeFiles/DMA_test.elf.dir/Core/Src/dma.c.i: cmake_force
@@ -85,7 +99,7 @@ CMakeFiles/DMA_test.elf.dir/Core/Src/dma.c.s: cmake_force
 CMakeFiles/DMA_test.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Core/Src/gpio.c.obj: C:/CLionProjects/DMA_test/Core/Src/gpio.c
 CMakeFiles/DMA_test.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/DMA_test.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/DMA_test.elf.dir/Core/Src/gpio.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\DMA_test.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Core\Src\gpio.c.obj -c C:\CLionProjects\DMA_test\Core\Src\gpio.c
 
 CMakeFiles/DMA_test.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -99,7 +113,7 @@ CMakeFiles/DMA_test.elf.dir/Core/Src/gpio.c.s: cmake_force
 CMakeFiles/DMA_test.elf.dir/Core/Src/main.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Core/Src/main.c.obj: C:/CLionProjects/DMA_test/Core/Src/main.c
 CMakeFiles/DMA_test.elf.dir/Core/Src/main.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/DMA_test.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/DMA_test.elf.dir/Core/Src/main.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\DMA_test.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Core\Src\main.c.obj -c C:\CLionProjects\DMA_test\Core\Src\main.c
 
 CMakeFiles/DMA_test.elf.dir/Core/Src/main.c.i: cmake_force
@@ -113,7 +127,7 @@ CMakeFiles/DMA_test.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/DMA_test.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: C:/CLionProjects/DMA_test/Core/Src/stm32f4xx_hal_msp.c
 CMakeFiles/DMA_test.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/DMA_test.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/DMA_test.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\DMA_test.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c C:\CLionProjects\DMA_test\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/DMA_test.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -127,7 +141,7 @@ CMakeFiles/DMA_test.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 CMakeFiles/DMA_test.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Core/Src/stm32f4xx_it.c.obj: C:/CLionProjects/DMA_test/Core/Src/stm32f4xx_it.c
 CMakeFiles/DMA_test.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/DMA_test.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/DMA_test.elf.dir/Core/Src/stm32f4xx_it.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles\DMA_test.elf.dir\Core\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Core\Src\stm32f4xx_it.c.obj -c C:\CLionProjects\DMA_test\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/DMA_test.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/DMA_test.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 CMakeFiles/DMA_test.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Core/Src/syscalls.c.obj: C:/CLionProjects/DMA_test/Core/Src/syscalls.c
 CMakeFiles/DMA_test.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/DMA_test.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/DMA_test.elf.dir/Core/Src/syscalls.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\DMA_test.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Core\Src\syscalls.c.obj -c C:\CLionProjects\DMA_test\Core\Src\syscalls.c
 
 CMakeFiles/DMA_test.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/DMA_test.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/DMA_test.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Core/Src/sysmem.c.obj: C:/CLionProjects/DMA_test/Core/Src/sysmem.c
 CMakeFiles/DMA_test.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/DMA_test.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/DMA_test.elf.dir/Core/Src/sysmem.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\DMA_test.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Core\Src\sysmem.c.obj -c C:\CLionProjects\DMA_test\Core\Src\sysmem.c
 
 CMakeFiles/DMA_test.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -169,7 +183,7 @@ CMakeFiles/DMA_test.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/DMA_test.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Core/Src/system_stm32f4xx.c.obj: C:/CLionProjects/DMA_test/Core/Src/system_stm32f4xx.c
 CMakeFiles/DMA_test.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/DMA_test.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/DMA_test.elf.dir/Core/Src/system_stm32f4xx.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles\DMA_test.elf.dir\Core\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Core\Src\system_stm32f4xx.c.obj -c C:\CLionProjects\DMA_test\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/DMA_test.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
@@ -183,7 +197,7 @@ CMakeFiles/DMA_test.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 CMakeFiles/DMA_test.elf.dir/Core/Src/usart.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Core/Src/usart.c.obj: C:/CLionProjects/DMA_test/Core/Src/usart.c
 CMakeFiles/DMA_test.elf.dir/Core/Src/usart.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/DMA_test.elf.dir/Core/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/DMA_test.elf.dir/Core/Src/usart.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\DMA_test.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Core\Src\usart.c.obj -c C:\CLionProjects\DMA_test\Core\Src\usart.c
 
 CMakeFiles/DMA_test.elf.dir/Core/Src/usart.c.i: cmake_force
@@ -196,7 +210,7 @@ CMakeFiles/DMA_test.elf.dir/Core/Src/usart.c.s: cmake_force
 
 CMakeFiles/DMA_test.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj: C:/CLionProjects/DMA_test/Core/Startup/startup_stm32f427iihx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/DMA_test.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/DMA_test.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\DMA_test.elf.dir\Core\Startup\startup_stm32f427iihx.s.obj -c C:\CLionProjects\DMA_test\Core\Startup\startup_stm32f427iihx.s
 
 CMakeFiles/DMA_test.elf.dir/Core/Startup/startup_stm32f427iihx.s.i: cmake_force
@@ -210,7 +224,7 @@ CMakeFiles/DMA_test.elf.dir/Core/Startup/startup_stm32f427iihx.s.s: cmake_force
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: C:/CLionProjects/DMA_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c C:\CLionProjects\DMA_test\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -224,7 +238,7 @@ CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s: 
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: C:/CLionProjects/DMA_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c C:\CLionProjects\DMA_test\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -238,7 +252,7 @@ CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_corte
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: C:/CLionProjects/DMA_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c C:\CLionProjects\DMA_test\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -252,7 +266,7 @@ CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: C:/CLionProjects/DMA_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c C:\CLionProjects\DMA_test\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -266,7 +280,7 @@ CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_e
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: C:/CLionProjects/DMA_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c C:\CLionProjects\DMA_test\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -280,7 +294,7 @@ CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: C:/CLionProjects/DMA_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c C:\CLionProjects\DMA_test\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -294,7 +308,7 @@ CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: C:/CLionProjects/DMA_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c C:\CLionProjects\DMA_test\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -308,7 +322,7 @@ CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: C:/CLionProjects/DMA_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c C:\CLionProjects\DMA_test\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -322,7 +336,7 @@ CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: C:/CLionProjects/DMA_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c C:\CLionProjects\DMA_test\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -336,7 +350,7 @@ CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: C:/CLionProjects/DMA_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c C:\CLionProjects\DMA_test\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -350,7 +364,7 @@ CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: C:/CLionProjects/DMA_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c C:\CLionProjects\DMA_test\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -364,7 +378,7 @@ CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_e
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: C:/CLionProjects/DMA_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c C:\CLionProjects\DMA_test\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -378,7 +392,7 @@ CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: C:/CLionProjects/DMA_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c C:\CLionProjects\DMA_test\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -392,7 +406,7 @@ CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_e
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: C:/CLionProjects/DMA_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c C:\CLionProjects\DMA_test\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -406,7 +420,7 @@ CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: C:/CLionProjects/DMA_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c C:\CLionProjects\DMA_test\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -420,7 +434,7 @@ CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_e
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/DMA_test.elf.dir/flags.make
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: C:/CLionProjects/DMA_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/DMA_test.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
 	C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj -MF CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj.d -o CMakeFiles\DMA_test.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c C:\CLionProjects\DMA_test\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
 
 CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
@@ -433,6 +447,7 @@ CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.
 
 # Object files for target DMA_test.elf
 DMA_test_elf_OBJECTS = \
+"CMakeFiles/DMA_test.elf.dir/Core/Src/callback.c.obj" \
 "CMakeFiles/DMA_test.elf.dir/Core/Src/dma.c.obj" \
 "CMakeFiles/DMA_test.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/DMA_test.elf.dir/Core/Src/main.c.obj" \
@@ -463,6 +478,7 @@ DMA_test_elf_OBJECTS = \
 # External object files for target DMA_test.elf
 DMA_test_elf_EXTERNAL_OBJECTS =
 
+DMA_test.elf: CMakeFiles/DMA_test.elf.dir/Core/Src/callback.c.obj
 DMA_test.elf: CMakeFiles/DMA_test.elf.dir/Core/Src/dma.c.obj
 DMA_test.elf: CMakeFiles/DMA_test.elf.dir/Core/Src/gpio.c.obj
 DMA_test.elf: CMakeFiles/DMA_test.elf.dir/Core/Src/main.c.obj
@@ -491,7 +507,7 @@ DMA_test.elf: CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32
 DMA_test.elf: CMakeFiles/DMA_test.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 DMA_test.elf: CMakeFiles/DMA_test.elf.dir/build.make
 DMA_test.elf: CMakeFiles/DMA_test.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking C executable DMA_test.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\CLionProjects\DMA_test\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking C executable DMA_test.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DMA_test.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building C:/CLionProjects/DMA_test/cmake-build-debug-mingw-stm32/DMA_test.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building C:/CLionProjects/DMA_test/cmake-build-debug-mingw-stm32/DMA_test.bin"
